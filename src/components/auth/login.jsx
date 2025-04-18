@@ -11,11 +11,11 @@ const login = () => {
                 Ro'yxatdan O'tish
               </h1>
              <div className="mt-12 flex-col  ">
-                  <button className="cursor-pointer  flex text-[28px] text-[#333333]  tracing-[28px] items-center w-[477px] p-4 border rounded-4xl justify-center gap-4 ">
+                  <button className=" flex text-[28px] text-[#333333]  tracing-[28px] items-center w-[477px] p-4 border rounded-4xl justify-center gap-4 ">
                       <FaFacebook className="text-[#0f82ee] w-8 h-8  "/> 
                      Facebook orqali kirish
                   </button>
-                  <button className="mt-5 cursor-pointer flex text-[28px] text-[#333333]  tracing-[28px] items-center w-[477px] p-4 border rounded-4xl justify-center gap-4 ">
+                  <button className="mt-5 flex text-[28px] text-[#333333]  tracing-[28px] items-center w-[477px] p-4 border rounded-4xl justify-center gap-4 ">
                       <FcGoogle className="text-[#0f82ee] w-8 h-8  "/> 
                        Google orqali kirish
                   </button>
@@ -35,11 +35,9 @@ const login = () => {
                 </p>
                 <input type="password" placeholder="*********" className="bg-[#EFEFEF] py-2 px-4 rounded-2xl text-[20px] w-[477px] mt-3" />
               </div>
-              <Link href="/">
-              <button className="w-[477px] cursor-pointer  py-2 text-[36px] font-normal bg-[#FFCF52] rounded-2xl mt-10 ">
+              <button className="w-[477px] py-2 text-[36px] font-normal bg-[#FFCF52] rounded-2xl mt-10 ">
                 Ro'yxatdan O'tish
               </button>
-              </Link>
               <p className="text-center text-[20px] mt-6">
               Akkauntingiz bormi ? <Link href="/signup" className="text-[#00A3FF] underline">Kirish </Link>
               </p>

@@ -1,4 +1,4 @@
-import SignUpComp from '@/components/auth/signUp'
+import SignUpComp from '../../components/auth/signUp'
 import React from 'react'
 
 

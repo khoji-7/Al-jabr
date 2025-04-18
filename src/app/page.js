@@ -1,13 +1,16 @@
+
 import Image from "next/image";
-import Navbar from "@/components/dashboard/navbar";
-import Header from "@/components/dashboard/header";
-import HeaderBanner from "@/components/header/headerBanner";
-import Directions from "@/components/header/directions";
-import About from "@/components/header/about";
-import Programm from "@/components/header/program";
-import Wework from "@/components/header/wework";
-import Footer from "@/components/dashboard/footer";
+import Navbar from "../components/dashboard/navbar";
+import Header from "../components/dashboard/header";
+import HeaderBanner from "../components/header/headerBanner";
+import Directions from "../components/header/directions";
+import About from "../components/header/about";
+import Programm from "../components/header/program";
+import Wework from "../components/header/wework";
+import Footer from "../components/dashboard/footer";
 import Link from "next/link";
+import { GiTeacher } from "react-icons/gi";
+
 
 export default function Home() {
   return (
@@ -21,9 +24,9 @@ export default function Home() {
        <Wework/>
        <Footer/>
        <Link href="/aipage">
-       <div className="bg-white w-[128px] h-11 rounded-full flex items-center fixed z-10 drop-shadow-xl  top-[550px] p-2 gap-2  right-[250px]">
+       <div className="bg-white w-[128px] h-11 rounded-full flex items-center fixed z-10 drop-shadow-xl  top-[550px] p-2 gap-2  right-[100px]">
           <span className="w-9 h-9 rounded-full bg-[#04AA6D] flex justify-center items-center">
-            <img src="/teach.png" alt="" />
+            <GiTeacher className="text-white text-xl"/>
           </span>
           <p className="text-[12px] text-black font-semibold">
           AI Mentor

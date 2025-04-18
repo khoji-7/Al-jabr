@@ -1,6 +1,8 @@
 "use client"
 
-import { Search, Plus, MoreHorizontal, Settings, User, ArrowRight, Paperclip, Mic } from "lucide-react"
+import { FiSearch, FiPlus, FiMoreHorizontal, FiSettings, FiUser, FiArrowRight, FiPaperclip, FiMic } from "react-icons/fi"
+import { FaKeyboard } from "react-icons/fa6";
+
 
 // Custom Button Component
 const CustomButton = ({ variant = "default", className = "", children, onClick, ...props }) => {
@@ -33,7 +35,7 @@ export default function AIMentor() {
         <div className="p-4 flex items-center justify-between">
           <div className="text-white text-2xl">≡</div>
           <div className="flex items-center gap-4">
-            <MoreHorizontal className="text-white" size={20} />
+            <FiMoreHorizontal className="text-white" size={20} />
           </div>
         </div>
 
@@ -44,14 +46,14 @@ export default function AIMentor() {
             className="w-full justify-between bg-gray-800 text-white border-gray-700 py-2"
           >
             <span>Yangi Chatni boshlang</span>
-            <Plus size={16} />
+            <FiPlus size={16} />
           </CustomButton>
         </div>
 
         {/* Search */}
         <div className="px-4 py-2">
           <div className="flex items-center gap-2 px-3 py-2 rounded-md bg-gray-800">
-            <Search size={18} className="text-gray-400" />
+            <FiSearch size={18} className="text-gray-400" />
             <input
               type="text"
               placeholder="Qidiruv"
@@ -67,25 +69,25 @@ export default function AIMentor() {
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="w-1 h-5 bg-blue-500 rounded-full"></div>
             <div className="flex-1 text-white text-sm">Umumiy Savollar</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="w-1 h-5 bg-indigo-500 rounded-full"></div>
             <div className="flex-1 text-white text-sm">Mavzu tushuntirish</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="w-1 h-5 bg-green-500 rounded-full"></div>
             <div className="flex-1 text-white text-sm">Misollarni yechish</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="w-1 h-5 bg-pink-500 rounded-full"></div>
             <div className="flex-1 text-white text-sm">Formulalar va Qoidalar</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
         </div>
 
@@ -96,19 +98,19 @@ export default function AIMentor() {
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="text-gray-400">💬</div>
             <div className="flex-1 text-white text-sm truncate">Kvadrat tenglamalarni...</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="text-gray-400">💬</div>
             <div className="flex-1 text-white text-sm truncate">Bu integralni qanday yech...</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 rounded-md mb-1 hover:bg-gray-800">
             <div className="text-gray-400">💬</div>
             <div className="flex-1 text-white text-sm truncate">Sinus va kosinus qoidalari...</div>
-            <MoreHorizontal size={16} className="text-gray-400" />
+            <FiMoreHorizontal size={16} className="text-gray-400" />
           </div>
         </div>
 
@@ -116,13 +118,12 @@ export default function AIMentor() {
         <div className="mt-auto p-4">
           <CustomButton
             variant="outline"
-            className="w-full flex  justify-between bg-gray-800 text-white border-gray-700 py-2"
+            className="w-full flex justify-between bg-gray-800 text-white border-gray-700 py-2"
           >
             <div className="flex items-center gap-2">
-              <User size={16} />
+              <FiUser size={16} />
               <span>Foydalanuvchi Profili</span>
             </div>
-            
           </CustomButton>
         </div>
       </div>
@@ -140,9 +141,6 @@ export default function AIMentor() {
 
         {/* Content */}
         <div className="flex-1 overflow-auto p-6">
-          {/* Logo */}
-          
-
           {/* Heading */}
           <div className="text-center mb-6">
             <h1 className="text-3xl font-bold mb-4 text-white">Bugun qanday yordam kerak?</h1>
@@ -159,7 +157,7 @@ export default function AIMentor() {
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-medium text-white">Mavzular tushuntirishi</h3>
                 <div className="p-1 rounded-full border border-gray-700">
-                  <ArrowRight size={16} className="text-gray-400" />
+                  <FiArrowRight size={16} className="text-gray-400" />
                 </div>
               </div>
               <p className="text-xs text-gray-400">
@@ -172,7 +170,7 @@ export default function AIMentor() {
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-medium text-white">Murakkab misollar</h3>
                 <div className="p-1 rounded-full border border-gray-700">
-                  <ArrowRight size={16} className="text-gray-400" />
+                  <FiArrowRight size={16} className="text-gray-400" />
                 </div>
               </div>
               <p className="text-xs text-gray-400">
@@ -185,7 +183,7 @@ export default function AIMentor() {
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-medium text-white">Formulalar va qoidalar</h3>
                 <div className="p-1 rounded-full border border-gray-700">
-                  <ArrowRight size={16} className="text-gray-400" />
+                  <FiArrowRight size={16} className="text-gray-400" />
                 </div>
               </div>
               <p className="text-xs text-gray-400">
@@ -198,7 +196,7 @@ export default function AIMentor() {
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-medium text-white">Umumiy savollar</h3>
                 <div className="p-1 rounded-full border border-gray-700">
-                  <ArrowRight size={16} className="text-gray-400" />
+                  <FiArrowRight size={16} className="text-gray-400" />
                 </div>
               </div>
               <p className="text-xs text-gray-400">
@@ -212,15 +210,16 @@ export default function AIMentor() {
         <div className="p-4 border-t border-gray-700">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-2 px-4 py-3 rounded-full bg-gray-700">
-              <Paperclip size={20} className="text-gray-400" />
+              <FiPaperclip size={20} className="text-gray-400" />
               <input
                 type="text"
                 placeholder="Matematik savolingizni kiriting..."
                 className="bg-transparent border-none outline-none flex-1 text-gray-200"
               />
-              <Mic size={20} className="text-gray-400" />
+              <FaKeyboard size={20} className="text-gray-400 mr-2"/>
+              <FiMic size={20} className="text-gray-400 mr-2" />
               <div className="p-2 rounded-full bg-emerald-600">
-                <ArrowRight size={20} className="text-white" />
+                <FiArrowRight size={20} className="text-white" />
               </div>
             </div>
           </div>
