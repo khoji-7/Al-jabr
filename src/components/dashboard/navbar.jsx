@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const navbar = () => {
   return (
@@ -20,7 +21,8 @@ const navbar = () => {
                 </li>
             </ul>
             <button className='w-[100px] text-white rounded-[100px] bg-[#04AA6D] cursor-pointer '>
-                Sign Up
+                <Link href="/signup">
+                Sign Up</Link>
             </button>
         </div>
     </section>
