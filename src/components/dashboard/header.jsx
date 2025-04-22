@@ -17,7 +17,7 @@ const header = () => {
                     Qidirish
                 </button>
             </div>
-            <img src="/image.png" alt="" className='absolute top-[33px] right-[20px] ' />
+            <img src="/image201.png" alt="" className='absolute top-[33px] right-[20px] w-auto ' />
         </div>
     </section>
   )
