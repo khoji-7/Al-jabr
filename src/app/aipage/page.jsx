@@ -145,7 +145,7 @@ export default function AIMentor() {
           <div className="text-center mb-6">
             <h1 className="text-3xl font-bold mb-4 text-white">Bugun qanday yordam kerak?</h1>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Matematika bo'yicha AI coach sizga murakkab tushunchalarni osonroq tushuntiradi. Qaysi bo'lim sizga
+              AI coach sizga murakkab tushunchalarni osonroq tushuntiradi. Qaysi bo'lim sizga
               kerakligini tanlang va savollaringizni bering!
             </p>
           </div>
@@ -213,7 +213,7 @@ export default function AIMentor() {
               <FiPaperclip size={20} className="text-gray-400" />
               <input
                 type="text"
-                placeholder="Matematik savolingizni kiriting..."
+                placeholder="Savolingizni kiriting ..."
                 className="bg-transparent border-none outline-none flex-1 text-gray-200"
               />
               <FaKeyboard size={20} className="text-gray-400 mr-2"/>

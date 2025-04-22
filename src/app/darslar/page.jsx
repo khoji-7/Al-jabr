@@ -394,7 +394,7 @@ function PromotionalBanner() {
   return (
     <div className="my-8 rounded-lg bg-blue-600 p-6 text-white relative overflow-hidden">
       <div className="relative z-10 max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-bold mb-2">Yangiklardan xabardor bo'ling!</h2>
+        <h2 className="text-2xl font-bold mb-2">Yangiliklardan xabardor bo'ling!</h2>
         <p className="mb-4">Yangi kurslar, chegirmalar uchun obuna bo'ling!</p>
 
         <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">

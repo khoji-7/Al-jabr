@@ -8,7 +8,7 @@ import { FcGoogle } from "react-icons/fc";
 const Signup = () => {
     return (
         <section className='w-full mx-auto bg-[url("/bgimg.png")] bg-cover bg-center p-9  items-center flex'>
-            <img src="sign.png" alt="" className=" " />
+            <img src="Al-Jabr_sign.png" alt="" className=" " />
             <div className="ml-24 rounded-2xl bg-white p-5 w-[550px] flex-row justify-center  ">
               <h1 className="text-[48px] underline text-center">
                 Kirish

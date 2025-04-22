@@ -44,7 +44,7 @@ const login = () => {
 
              </div>
             </div>
-            <img src="sign.png" alt="" className=" " />
+            <img src="login_2.png" alt="" className="round-2xl " />
 
         </section>
   )

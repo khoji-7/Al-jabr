@@ -11,23 +11,24 @@ const navbar = () => {
 
             </Link>
             <ul className='flex items-center gap-12 cursor-pointer'>
-                
-                <li className='text-white capitalize'>
-                    darslar
+                <Link href="/darslar2">
+                <li className='text-white capitalize hover:text-green-400 text-gray-500'>
+                    Darslar
                 </li>
+                </Link>
                <Link href="/darslar">
-                <li className='text-white capitalize'>
+                <li className='text-white capitalize hover:text-green-400 text-gray-500'>
                     Kurslar
                 </li>
                 </Link>
-                <li className='text-white capitalize'>
-                    testlar
+                <li className='text-white capitalize hover:text-green-400 text-gray-500'>
+                    Statistika
                 </li>
-                <li className='text-white capitalize'>
-                    yutuqlar
+                <li className='text-white capitalize hover:text-green-400 text-gray-500'>
+                    Blog
                 </li>
-                <li className='text-white capitalize'>
-                    obuna
+                <li className='text-white capitalize hover:text-green-400 text-gray-500'>
+                    Obuna
                 </li>
             </ul>
             <button className='w-[100px] text-white rounded-[100px] bg-[#04AA6D] cursor-pointer '>
